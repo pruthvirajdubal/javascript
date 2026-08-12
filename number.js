@@ -1,0 +1,12 @@
+let intNr =1;
+let decNr=1.5;
+let expNr=1.4e15;
+let octNr=0o10;
+let hexNr=0x3e8;
+let binNr=0b101;
+console.log(intNr);
+console.log(decNr);
+console.log(expNr);
+console.log(octNr);
+console.log(hexNr);
+console.log(binNr);
