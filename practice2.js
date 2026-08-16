@@ -1,27 +1,26 @@
- let myCar ={
-                make:"tata",
-                model:"grand vitara",
-                year:2029,
-                color:"white",
-                Electrical:"false",
-                milege:15.5,
-                setes:7
- }
- console.log(myCar);
- //2.CREAT VARIABLE
-   let color="white";
-   myCar[color]="white";
-   myCar.color=color;
+//1.CREATE PROMPT TO ASK THE USER'S AGE
+let ageInput= prompt("plese Enter your age:");
 
-   //3.ADD NEW PROPERY FORSALE
-   let forsale ="forsale";
-   myCar [forsale]="yes";
+//2.CONVERT THE RESPONCE FROM THE PROMPT NUMBER 
+let age= Number(ageInput);
 
-   
-   //4.OUTPUT MODEL INTO COSOLE
-   console.log("make",myCar.make);
-   console.log("model",myCar.model);
-   
-   //5. OUTPUT THE VALUE FORSELE INTO CONSOLE
-   console.log("forsale",myCar.forsale);
+//3.declare the message 
+let message="";
 
+//4.
+if(age >= 21)
+{
+    message="Conform entry to avenue  and the ability to purches alchohlo";
+}
+//5.
+else if(age >= 19)
+{
+    message="confirm entry to the venue but deny the purches alcohol";
+}
+//6.
+else
+{
+    message="Deny entry if non true";
+}
+//7.
+console.log(message);
