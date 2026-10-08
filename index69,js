@@ -1,0 +1,3 @@
+let users = ["anna","pruthvi","soma","patil"];
+
+console.log(users.indexOf("soma"));
